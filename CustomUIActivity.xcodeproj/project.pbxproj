@@ -21,6 +21,7 @@
 		DD768A4A1981118E00839EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD768A2C1981118E00839EA1 /* UIKit.framework */; };
 		DD768A521981118E00839EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD768A501981118E00839EA1 /* InfoPlist.strings */; };
 		DD768A541981118E00839EA1 /* CustomUIActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD768A531981118E00839EA1 /* CustomUIActivityTests.m */; };
+		DD768A5F1981120800839EA1 /* OZOpenInSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = DD768A5E1981120800839EA1 /* OZOpenInSafariActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DD768A4F1981118E00839EA1 /* CustomUIActivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomUIActivityTests-Info.plist"; sourceTree = "<group>"; };
 		DD768A511981118E00839EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD768A531981118E00839EA1 /* CustomUIActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUIActivityTests.m; sourceTree = "<group>"; };
+		DD768A5D1981120800839EA1 /* OZOpenInSafariActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZOpenInSafariActivity.h; sourceTree = "<group>"; };
+		DD768A5E1981120800839EA1 /* OZOpenInSafariActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZOpenInSafariActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				DD768A3A1981118E00839EA1 /* Main.storyboard */,
 				DD768A3D1981118E00839EA1 /* OZViewController.h */,
 				DD768A3E1981118E00839EA1 /* OZViewController.m */,
+				DD768A5D1981120800839EA1 /* OZOpenInSafariActivity.h */,
+				DD768A5E1981120800839EA1 /* OZOpenInSafariActivity.m */,
 				DD768A401981118E00839EA1 /* Images.xcassets */,
 				DD768A2F1981118E00839EA1 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD768A5F1981120800839EA1 /* OZOpenInSafariActivity.m in Sources */,
 				DD768A351981118E00839EA1 /* main.m in Sources */,
 				DD768A3F1981118E00839EA1 /* OZViewController.m in Sources */,
 				DD768A391981118E00839EA1 /* OZAppDelegate.m in Sources */,
